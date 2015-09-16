@@ -12,3 +12,12 @@ Javascript
 5. 用`in`判断对象是否存在某个属性，当然也会判断继承的属性
 	`hasOwnProperty`判断自身是否存在某属性，不会判断继承
 6. JavaScript把`null`、`undefined`、`0`、`NaN`和空字符串`''`视为false
+7. Map Set 是ES6的新特性
+	Map：get，has，delete
+	Set：add，delete
+8. iterable类型， array，map，set都属于iterable类型，具有iterable类型的集合可以使用`for...of...`来遍历
+	Array :  `a.forEach(function(element, index, array){...})`
+	Map   :  `a.forEach(function(value, key, map){...})`
+	Set   :  `a.forEach(function(element, set){...})`
+9. arguments 关键字，是JS自带，在函数内部可用，类似Array
+10. 
